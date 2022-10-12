@@ -28,7 +28,7 @@
   * [Tech Stack](#space_invader-tech-stack)
   * [Color Reference](#art-color-reference)
 - [Architecture](#briefcase-Architecture)
-- [Architecture Diagram](#triangular_ruler-archarchitecture-diagram)
+- [Architecture Diagram](#triangular_ruler-Architecture-Diagram)
 - [FAQ](#grey_question-faq)
 
   
