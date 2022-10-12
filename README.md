@@ -8,26 +8,13 @@
   
   
 <!-- Badges -->
-<p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
-  </a>
-</p>
+![kotlin](https://img.shields.io/badge/Kotlin-1.6.10-white.svg?style=for-the-badge&labelColor=7E57C2)
+![compose](https://img.shields.io/badge/Compose-1.2.0-white.svg?style=for-the-badge&labelColor=5C6BC0)
+![Hilt](https://img.shields.io/badge/Hilt-2.40-white.svg?style=for-the-badge&labelColor=42A5F5)
+![Coroutines](https://img.shields.io/badge/Coroutines-1.6.0-white.svg?style=for-the-badge&labelColor=26C6DA)
+![minSdkVersion](https://img.shields.io/badge/MinSdkVersion-21-white.svg?style=for-the-badge&labelColor=26A69A)
+![targetSdkVersion](https://img.shields.io/badge/TargetSdkVersion-31-white.svg?style=for-the-badge&labelColor=66BB6A)
+![MVI](https://img.shields.io/badge/CleanCode-MVI-white.svg?style=for-the-badge&labelColor=FFCA28)
    
 </div>
 
@@ -39,10 +26,9 @@
 - [About the Project](#star2-about-the-project)
   * [Screenshots](#camera-screenshots)
   * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
-- [Architecture](#eyes-usage)
-- [Architecture Diagram](#compass-roadmap)
+- [Architecture](#briefcase-Architecture)
+- [Architecture Diagram](#triangular_ruler-archarchitecture-diagram)
 - [FAQ](#grey_question-faq)
 
   
@@ -85,7 +71,7 @@
 
 
 <!-- Architecture -->
-## 	:toolbox: Architecture
+## :briefcase: Architecture
 
 <!-- App Module -->
 ### :bangbang: App Module
@@ -98,7 +84,7 @@ This project uses Yarn as package manager
 This project uses Yarn as package manager
 
 <!-- Architecture Diagram -->
-## :compass: Architecture Diagram
+## :triangular_ruler: Architecture Diagram
 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
