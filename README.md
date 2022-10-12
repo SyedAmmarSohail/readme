@@ -73,15 +73,9 @@
 <!-- Architecture -->
 ## :briefcase: Architecture
 
-<!-- App Module -->
-### :bangbang: App Module
+**App Module** uses Yarn as package manager
 
-This project uses Yarn as package manager
-
-<!-- BuildSrc Module -->
-### :bangbang: BuildSrc Module
-
-This project uses Yarn as package manager
+**App Module** uses Yarn as package manager
 
 <!-- Architecture Diagram -->
 ## :triangular_ruler: Architecture Diagram
