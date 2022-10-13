@@ -23,15 +23,13 @@
 <!-- Table of Contents -->
 # Table of Contents
 
-- [About the Project](#about-the-project)
-  * [Screenshots](#screenshots)
-  * [Tech Stack](#tech-stack)
-  * [Color Reference](#color-reference)
-- [Architecture](#Architecture)
-- [Architecture Diagram](#Architecture-Diagram)
-- [FAQ](#faq)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Architecture](#architecture)
+- [Architecture Diagram](#architecture-diagram)
+- [Project Tree](#project-tree)
 
-  
 
 <!-- About the Project -->
 ## About the Project
@@ -40,9 +38,12 @@
 <!-- Screenshots -->
 ### Screenshots
 
-<div align="center"> 
-  <img src="https://drive.google.com/uc?export=view&id=1oG-oo9OEOGlT-hPSv3v52t6U2Jj_7RLN" alt="screenshot" />
-</div>
+[<img src="https://drive.google.com/uc?export=view&id=1anyOrOmrQU_lZC1CvJuX-x7CS7KKyhYV" align="left"
+width="200"
+    hspace="10" vspace="10">](https://drive.google.com/uc?export=view&id=1anyOrOmrQU_lZC1CvJuX-x7CS7KKyhYV)
+[<img src="https://drive.google.com/uc?export=view&id=1agA3Imtle22NXcv23NiwB3we63tLcTS5" align="center"
+width="200"
+    hspace="10" vspace="10">](https://drive.google.com/uc?export=view&id=1agA3Imtle22NXcv23NiwB3we63tLcTS5)
 
 
 <!-- TechStack -->
@@ -62,7 +63,7 @@
 Mutable state is used in this project instead of Flows.
 
 
-## Installation
+### Installation
 
 **Download:**
 
@@ -72,21 +73,11 @@ Import Project by Android Studio Menu > File > Import Project.
 
 **Release:**
 
-This app is production ready only need to add your keystore path, password and alias in keystore.properties located under the app folder.
-
-<!-- Color Reference -->
-### Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+This app is production ready, only need to add your keystore path, password and alias in build.gradle file located under the app folder.
 
 
 <!-- Architecture -->
-## Architecture
+### Architecture
 
 **AppModule:**
 
@@ -104,27 +95,15 @@ Puts every dependencies in one place with respect to its classes, and use it by 
 
 
 <!-- Architecture Diagram -->
-## Architecture Diagram
+### Architecture Diagram
 
 <div align="center"> 
   <img src="https://drive.google.com/uc?export=view&id=1oG-oo9OEOGlT-hPSv3v52t6U2Jj_7RLN" alt="screenshot" />
 </div>
 
-
-<!-- FAQ -->
-## FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-  
   
 <!-- Project tree -->
-## Project tree
+### Project tree
 
 ```text
 .
@@ -206,24 +185,7 @@ Puts every dependencies in one place with respect to its classes, and use it by 
 ```  
 
 
-<!-- License -->
-## License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
-
 <!-- Contact -->
 ## Contact
 
 Syed Ammar Sohail - ammarsohail321@gmail.com
-
-
-<!-- Acknowledgments -->
-## Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
