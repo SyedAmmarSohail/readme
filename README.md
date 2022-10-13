@@ -1,9 +1,9 @@
 <div align="center">
 
-  <h1>Heading</h1>
+  <h1>Select a Car</h1>
   
   <p>
-    Detail! 
+    Car selection app by picking up data of manufacturer, main type and build date 
   </p>
   
   
@@ -21,24 +21,24 @@
 <br />
 
 <!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
+# Table of Contents
 
-- [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
-  * [Color Reference](#art-color-reference)
-- [Architecture](#briefcase-Architecture)
-- [Architecture Diagram](#triangular_ruler-Architecture-Diagram)
-- [FAQ](#grey_question-faq)
+- [About the Project](#about-the-project)
+  * [Screenshots](#screenshots)
+  * [Tech Stack](#tech-stack)
+  * [Color Reference](#color-reference)
+- [Architecture](#Architecture)
+- [Architecture Diagram](#Architecture-Diagram)
+- [FAQ](#faq)
 
   
 
 <!-- About the Project -->
-## :star2: About the Project
+## About the Project
 
 
 <!-- Screenshots -->
-### :camera: Screenshots
+### Screenshots
 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
@@ -46,21 +46,36 @@
 
 
 <!-- TechStack -->
-### :space_invader: Tech Stack
+### Tech Stack
     
-* [Kotlin]()
-* [Compose]()
+* [Kotlin](https://kotlinlang.org/docs/home.html)
+* [Compose](https://developer.android.com/jetpack/compose/documentation)
 * [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
-* [State]()
-* [Moshi]()
+* [State](https://developer.android.com/reference/kotlin/androidx/compose/runtime/MutableState)
+* [Moshi](https://github.com/square/moshi)
 * [Coroutines](https://developer.android.com/kotlin/coroutines) 
 * [Retrofit](https://square.github.io/retrofit/) 
-* [Mockk for Testing]()
-* [Custom Paging]()
+* [Mockk](https://mockk.io/)
+* [Truth](https://truth.dev/)
+* [Custom Pagination]()
 
+Mutable state is used in this project instead of Flows.
+
+
+## Installation
+
+**Download:**
+
+    $ git clone https://github.com/ishida/android-studio-project-with-lvl-sample
+
+Import Project by Android Studio Menu > File > Import Project.
+
+**Release:**
+
+This app is production ready only need to add your keystore path, password and alias in keystore.properties located under the app folder.
 
 <!-- Color Reference -->
-### :art: Color Reference
+### Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -71,21 +86,33 @@
 
 
 <!-- Architecture -->
-## :briefcase: Architecture
+## Architecture
 
-**App Module** uses Yarn as package manager
+**AppModule:**
 
-**App Module** uses Yarn as package manager
+Used layer-base clean architecture in which include data, domain and presentation layer.
+
+- **Data layer -** Manages application data eg. retrieve data from the network, manage local data cache
+
+- **Domain layer -** Contains business logic with separate usecases
+
+- **Presentation layer -** Presents data to a screen and handle user interactions
+
+**BuildSrc:**
+
+Puts every dependencies in one place with respect to its classes, and use it by calling the dependency with its class.
+
 
 <!-- Architecture Diagram -->
-## :triangular_ruler: Architecture Diagram
+## Architecture Diagram
 
 <div align="center"> 
   <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
 </div>
 
+
 <!-- FAQ -->
-## :grey_question: FAQ
+## FAQ
 
 - Question 1
 
@@ -95,8 +122,9 @@
 
   + Answer 2
   
+  
 <!-- Project tree -->
-## 🌲 **Project tree**
+## Project tree
 
 ```text
 .
@@ -179,19 +207,19 @@
 
 
 <!-- License -->
-## :warning: License
+## License
 
 Distributed under the no License. See LICENSE.txt for more information.
 
 
 <!-- Contact -->
-## :handshake: Contact
+## Contact
 
 Syed Ammar Sohail - ammarsohail321@gmail.com
 
 
 <!-- Acknowledgments -->
-## :gem: Acknowledgements
+## Acknowledgements
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
