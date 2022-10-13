@@ -41,7 +41,7 @@
 ### Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://drive.google.com/uc?export=view&id=1oG-oo9OEOGlT-hPSv3v52t6U2Jj_7RLN" alt="screenshot" />
 </div>
 
 
@@ -107,7 +107,7 @@ Puts every dependencies in one place with respect to its classes, and use it by 
 ## Architecture Diagram
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://drive.google.com/uc?export=view&id=1oG-oo9OEOGlT-hPSv3v52t6U2Jj_7RLN" alt="screenshot" />
 </div>
 
 
