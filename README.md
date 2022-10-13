@@ -29,6 +29,7 @@
 - [Architecture](#architecture)
 - [Architecture Diagram](#architecture-diagram)
 - [Project Tree](#project-tree)
+- [Test](#test)
 
 
 <!-- About the Project -->
@@ -184,6 +185,16 @@ Puts every dependencies in one place with respect to its classes, and use it by 
 
 ```  
 
+
+### Tests
+
+**Unit Test:**
+
+To run the unit tests for repository go to the **CarRepositoryImpTest** class under the **test** folder and run the tests.
+
+**End to End Test:**
+
+To run the end to end tests for the app go to the **CarE2ETest** class under the **androidTest** folder and run the tests.
 
 <!-- Contact -->
 ## Contact
